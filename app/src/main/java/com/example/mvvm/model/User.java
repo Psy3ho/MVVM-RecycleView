@@ -1,7 +1,7 @@
-package com.example.mvvm;
+package com.example.mvvm.model;
 
 public class User {
-     String name, email;
+     public String name, email;
 
      public User(String name, String email) {
           this.name = name;

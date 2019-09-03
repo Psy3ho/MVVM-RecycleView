@@ -1,15 +1,16 @@
-package com.example.mvvm;
+package com.example.mvvm.view;
 
-import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.mvvm.R;
 import com.example.mvvm.databinding.ItemListBinding;
+import com.example.mvvm.model.User;
+import com.example.mvvm.viewmodel.MainViewModel;
 
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class MainAdapter extends
     private List<User> users;
     private  MainViewModel viewModel;
 
-    public MainAdapter(List<User> users, MainViewModel viewModel) {
+    MainAdapter(List<User> users, MainViewModel viewModel) {
         this.users = users;
         this.viewModel = viewModel;
     }

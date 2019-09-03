@@ -1,15 +1,17 @@
-package com.example.mvvm;
+package com.example.mvvm.view;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
 
+import com.example.mvvm.R;
 import com.example.mvvm.databinding.ActivityMainBinding;
+import com.example.mvvm.model.User;
+import com.example.mvvm.viewmodel.MainViewModel;
 
 
 public class MainActivity extends AppCompatActivity implements MainNavigator {

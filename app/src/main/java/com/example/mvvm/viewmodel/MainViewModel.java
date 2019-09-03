@@ -1,7 +1,10 @@
-package com.example.mvvm;
+package com.example.mvvm.viewmodel;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.mvvm.view.MainNavigator;
+import com.example.mvvm.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

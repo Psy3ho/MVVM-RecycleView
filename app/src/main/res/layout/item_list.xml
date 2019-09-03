@@ -6,10 +6,10 @@
 
     <data>
         <variable name="user"
-            type="com.example.mvvm.User"/>
+            type="com.example.mvvm.model.User"/>
         <variable
             name="viewModel"
-            type="com.example.mvvm.MainViewModel" />
+            type="com.example.mvvm.viewmodel.MainViewModel" />
     </data>
 
 
